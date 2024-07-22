@@ -1,0 +1,10 @@
+.OurStory > img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    transition: all 10.0s ease;
+    rotate: -5deg;
+}
+.OurStory > img:hover{
+    transform: rotateY(180deg);
+}

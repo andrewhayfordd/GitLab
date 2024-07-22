@@ -1,0 +1,355 @@
+.Home > .hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../Assets/images/hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.Home > .hero .texts{
+    position: relative;
+    top: 170px;
+}
+.Home > .hero .texts .text{
+    font-size: 70px;
+    color: #fff;
+    font-family: serif;
+    text-align: center;
+}
+.Home > .hero .texts .button{
+    margin: 40px;
+  /* position: absolute;
+  top: 100%;
+  left: 50%; */
+  text-align: center;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+.Home > .hero .texts .button button{
+    border: none;
+    padding: 18px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #cc9600;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+.Home > .hero .button button:hover{
+    border: solid #cc9600 1px;
+    background-color: #fff;
+    color: #cc9600;
+    padding: 17px 29px;
+}
+
+.Home > .oursuites{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.Home > .oursuites .head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.Home > .oursuites .head .title{
+    font-size: 45px;
+    color: #cc9600;
+    font-family: serif;
+}
+.Home > .oursuites .head .count{
+    position: relative;
+    top: 20px;
+}
+.Home > .oursuites .head .count button{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: #cc9600;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.Home > .oursuites .head .count .num{
+    font-size: 14px;
+}
+.Home > .oursuites .main{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 530px;
+}
+.Home > .oursuites .main .suites{
+    background-color: #ffffff;
+    max-width: 370px;
+    height: 520px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(201, 201, 201, 0.2), 0 6px 20px 0 rgba(201, 201, 201, 0.19);
+}
+.Home > .oursuites .main .suites div img{
+    height: 240px;
+    width: 370px;
+}
+.Home > .oursuites .main .suites .name{
+    text-align: center;
+    font-size: 25px;
+    color: #cc9600;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: serif;
+    margin-top: 40px;
+}
+.Home > .oursuites .main .suites .numBed{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.Home > .oursuites .main .suites .size{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Home > .oursuites .main .suites .btn button{
+    background-color: #cc9600;
+    border: none;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.Home > .oursuites .seeallBtn button{
+    color: #cc9600;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: solid 1px #6d6d6d;
+    padding-bottom: 4px;
+}
+.Home > .priceMatch{
+    margin-top: 80px;
+}
+.Home > .priceMatch .title{
+    color: #cc9600;
+    font-size: 45px;
+    font-family: serif;
+    text-align: center;
+    margin: 30px;
+}
+.Home > .priceMatch .content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Home > .priceMatch .content .img img{
+    height: 350px;
+    width: 550px;
+}
+
+.Home > .priceMatch .content .text .title2{
+    font-size: 33px;
+    text-align: left;
+    color: #cc9600;
+    font-family: serif;
+}
+.Home > .priceMatch .content .text1{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Home > .priceMatch .content .text12{
+    font-size: 18px;
+}
+.Home > .priceMatch .content button{
+    background-color: rgb(37, 37, 95);
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    transition: all 0.8s ease;
+}
+.Home > .priceMatch .content button:hover{
+    transform: translateY(-10%);
+}
+.Home > .luxury{
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+.Home > .luxury .flex{
+    display: flex;
+}
+.Home > .luxury .head{
+    border: solid #000 1px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.Home > .luxury .texts .title{
+    color: #cc9600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.Home > .luxury .texts .text{
+    width: 450px;
+    color: #646464;
+    margin-bottom: 30px;
+}
+.Home > .luxury .img{
+    scroll-behavior: auto;
+}
+.Home > .luxury .img .img1 img{
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+}
+.Home > .luxury .img .img2 img{
+    height: 250px;
+    width: 450px;
+    position: relative;
+    bottom: 130px;
+    left: 180px;
+    border-radius: 5px;
+}
+.Home > .luxury button{
+    padding: 18px 23px;
+    background-color: #cc9600;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.Home > .luxury button:hover{
+    transform: translateY(-10%);
+}
+.Home > .experiences{
+    margin-bottom: 60px;
+}
+.Home > .experiences .title{
+    color: #cc9600;
+    font-size: 40px;
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 30px;
+}
+.Home > .experiences .contents{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.Home > .experiences .contents .content .img img{
+    height: 250px;
+    width: 350px;
+    border-radius: 8px;
+}
+.Home > .experiences .contents .content .text{
+    position: relative;
+    font-size: 30px;
+    font-family: serif;
+    bottom: 70px;
+    left: 30px;
+    color: #fff;
+    width: 260px;
+}
+.Home > .experiences .contents .content:nth-last-child(1) .text{
+    position: relative;
+    bottom: 102px;
+}
+.Home > .experiences .contents .content{
+    transition: all 0.8s ease;
+    opacity: 0;
+    height: 250px;
+    border-radius: 8px;
+}
+.Home > .experiences .contents .content:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Home > .experiences button{
+    color: #fff;
+    background-color: #cc9600;
+    margin: auto;
+    display: block;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.Home > .specialOffers .head{
+    font-size: 35px;
+    color: #cc9600;
+    text-align: center;
+    font-family: serif;
+    margin: 30px;
+}
+.Home > .specialOffers{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+.Home > .specialOffers .content{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.Home > .specialOffers .content .img{
+    width: 550px;
+    height: 450px;
+    overflow: hidden;
+}
+.Home > .specialOffers .content .img img{
+    height: 450px;
+    width: 550px;
+    border-radius: 8px;
+    transition: all 4.8s ease;
+}
+.Home > .specialOffers .content .img img:hover{
+    transform: scale(1.5);
+}
+.Home > .specialOffers .content .text .title{
+    font-size: 35px;
+    color: #cc9600;
+    font-family: serif;
+}
+.Home > .specialOffers .content .text p{
+    color: #8d8d8d;
+    width: 450px;
+}
+.Home > .specialOffers .content .text h5{
+    color: #646464;
+}
+.Home > .specialOffers .content .text button{
+    background-color: #cc9600;
+    color: #fff;
+    border: none;
+    padding: 18px 28px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+
+
