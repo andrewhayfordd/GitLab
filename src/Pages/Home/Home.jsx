@@ -296,6 +296,11 @@ function Home (){
 
             <div className="gallery">
                 <div className="head">SUITE, FACILITIES & AMENITIES</div>
+                <div className="content">
+                    <div className="imgs">
+                        pic
+                    </div>
+                </div>
             </div>
 
         </div>
