@@ -9,7 +9,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import priceM from "../../Assets/images/priceM.jpg";
 import luxury from "../../Assets/images/luxury.jpg";
-import luxury2 from "../../Assets/images/luxury2.jpg"
+import luxury2 from "../../Assets/images/luxury2.jpg";
+import gallery1 from "../../Assets/images/gallery.jpg";
+import gallery2 from "../../Assets/images/gallery2.jpeg";
+import gallery3 from "../../Assets/images/gallery3.jpg";
+import gallery4 from "../../Assets/images/gallery4.jpg";
 
 function Home (){
 
@@ -298,9 +302,24 @@ function Home (){
                 <div className="head">SUITE, FACILITIES & AMENITIES</div>
                 <div className="content">
                     <div className="imgs">
-                        pic
+                        <div className="imgCl1">
+                            <div><img src={gallery1} alt="" /></div>
+                            <div><img src={gallery2} alt="" /></div>
+                        </div>
+                        <div className="imgCl2">
+                            <img src={gallery3} alt="" />
+                        </div>
+                        <div className="imgCl3">
+                            <img src={gallery4} alt="" />
+                        </div>
                     </div>
                 </div>
+                <div className="foot"><button>SEE FULL GALLERY</button></div>
+            </div>
+
+            <div className="simple">
+                <div className="text">PROVIDING AN ALTERNATIVE AND SOPHISTICATED LIFESTYLE EXPERIENCE</div>
+                <div className="button"><button>CHECK AVAILABILITY</button></div>
             </div>
 
         </div>
