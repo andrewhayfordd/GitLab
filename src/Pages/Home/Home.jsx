@@ -322,6 +322,8 @@ function Home (){
                 <div className="button"><button>CHECK AVAILABILITY</button></div>
             </div>
 
+            <h1>Welcome to the git plus branch</h1>
+
         </div>
     )
 }
