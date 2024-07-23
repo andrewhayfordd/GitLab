@@ -323,7 +323,7 @@ function Home (){
             </div>
 
             <h1>Welcome to the git plus branch</h1>
-            <h2>Next git plus</h2>
+            <h2>Next git plus plus</h2>
             
 
         </div>
